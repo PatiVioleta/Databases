@@ -1,0 +1,4 @@
+CREATE TABLE Versiune(NR int)
+INSERT INTO Versiune
+VALUES(0)
+GO	

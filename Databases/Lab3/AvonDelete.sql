@@ -1,0 +1,32 @@
+DROP TABLE products_orders;
+DROP TABLE orders;
+DROP TABLE orderDetails;
+DROP TABLE payments;
+DROP TABLE products;
+DROP TABLE productsDetails;
+DROP TABLE pages;
+DROP TABLE brochures;
+DROP TABLE customers;
+DROP TABLE customerDetails;
+
+DELETE FROM products_orders;
+DELETE FROM orders;
+DELETE FROM orderDetails;
+DELETE FROM payments;
+DELETE FROM products;
+DELETE FROM productsDetails;
+DELETE FROM pages;
+DELETE FROM brochures;
+DELETE FROM customers;
+DELETE FROM customerDetails;
+
+SELECT * FROM products_orders;
+SELECT * FROM orders;
+SELECT * FROM orderDetails;
+SELECT * FROM payments;
+SELECT * FROM products;
+SELECT * FROM productsDetails;
+SELECT * FROM pages;
+SELECT * FROM brochures;
+SELECT * FROM customers;
+SELECT * FROM customerDetails;
